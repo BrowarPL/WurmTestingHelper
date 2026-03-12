@@ -108,6 +108,8 @@ public class FakeCreatureStatus extends CreatureStatus {
         throw new UnsupportedOperationException("Not yet implemented.");
     }
 
+    public String savedName;
+
     @Override
     void saveCreatureName(String s) throws IOException {
         throw new UnsupportedOperationException("Not yet implemented.");
